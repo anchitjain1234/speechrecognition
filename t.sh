@@ -1,7 +1,7 @@
 clear
-echo 'Enter name of file'
+echo 'Enter name of file to be converted.'
 read inpfname
-echo 'Is file in different directory?(y/n)'
+echo 'Is file in different directory than working directory?(y/n)'
 read choice
 inpcomppath=$inpfname
 if [[ "$choice" == y ]]; then
